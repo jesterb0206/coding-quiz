@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>Coding Quiz</title>
         <link rel="stylesheet" href="reset.css">
         <link rel="stylesheet" href="style.css">
@@ -11,18 +11,15 @@
     </head>
     <body>
         <header>
-            <a href="#highscores" id="view-high-scores">View High Scores</a>
-            <p id="timer">Time: 0</p>
+            <a id="scores">View High Scores</a>
+            <section id="timer">Time: 0</section>
         </header>
-        <main>
-            <section id="start-page">
-                <h1>Coding Quiz Challenge</h1>
-                <p id="start-page-custom-styling">Try to answer the following code-related questions within the time limit. Keep in mind that incorrect answers will penalize your score/time by five seconds. Good luck!</p>
-                <div class="flex-parent jc-center">
-                    <button id="start-quiz">Start Quiz</button>
-                </div>
-            </section>
+        <main id="container">
+            <h1 id="title">Coding Quiz Challenge</h1>
+            <section id="content">Try to answer the following code-related questions within the time limit. Keep in mind that incorrect answers will penalize your score/time by five seconds. Good luck!</section>
+            <button id="start">Start Quiz</button>
         </main>
+        <footer id="answer"></footer>    
         <script src="script.js"></script>
     </body>
 </html>
