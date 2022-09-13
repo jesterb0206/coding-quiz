@@ -212,7 +212,7 @@ function saveScore(id) {
 }
 
 function invalidInput() {
-    answer.textContent = "Initials must be entered and three characters or less";
+    answer.textContent = "Enter your initials in 3 or less characters!";
     answer.setAttribute("style", "color: white", "font-family: serif");
     clearAnswer();
     let submit = document.getElementById("submit");
@@ -226,11 +226,11 @@ function showScores() {
         writeScores();
         createEndButtons();
     } else if(title.textContent === "All Done.") {
-        answer.textContent = "Please enter your initials first";
+        answer.textContent = "Please enter your initials first!";
         answer.setAttribute("style", "color: white", "font-family: serif");
         clearAnswer();
     } else {
-        answer.textContent = "Cannot view scores until the quiz is over";
+        answer.textContent = "You can't view your high scores until the quiz has been completed!";
         answer.setAttribute("style", "color: white", "font-family: serif");
         clearAnswer();
     }
