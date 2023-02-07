@@ -7,10 +7,6 @@ A few months down the road, when I'm further along in my journey to becoming a f
 
 A timed coding quiz with multiple-choice questions to help you prepare for the technical interview process.
 
-## Installation
-
-N/A
-
 ## Usage
 
 ![Coding Quiz Challenge Screenshot](assets/images/coding-quiz.png)
