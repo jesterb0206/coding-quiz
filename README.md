@@ -31,4 +31,5 @@ http://khroma.co - Khroma [I used their Bone, Breaker Bay, Pesto, Soft Amber, Ta
 
 ## License
 
-Please refer to the LICENSE in the repo.
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[This application is under the MIT license](https://opensource.org/licenses/MIT)
